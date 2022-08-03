@@ -27,7 +27,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Try2Catch\\WebPush\\": "src/"
+			"Try2catch\\WebPush\\": "src/"
 		}
 	}
 }
