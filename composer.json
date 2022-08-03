@@ -1,0 +1,33 @@
+{
+	"name": "leuchtdiode/laminas-webpush",
+	"description": "Laminas module for web push",
+	"type": "library",
+	"license": "MIT",
+	"homepage": "https://try2catch.com",
+	"authors": [
+		{
+			"name": "Alex Schloegl",
+			"email": "alex@try2catch.com",
+			"homepage": "https://try2catch.com",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"Laminas",
+		"Module",
+		"WebPush"
+	],
+	"require": {
+		"php": "^8.1",
+		"leuchtdiode/laminas-common": "^2.0",
+		"leuchtdiode/laminas-console": "^0.1",
+		"leuchtdiode/laminas-log": "^2.0",
+		"minishlink/web-push": "^7.0",
+		"ramsey/uuid": "^4.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Try2Catch\\WebPush\\": "src/"
+		}
+	}
+}
