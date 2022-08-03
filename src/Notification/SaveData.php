@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Try2Catch\WebPush\Notification;
+namespace Try2catch\WebPush\Notification;
 
 use Common\Dto\PatchModificationData;
 use DateTime;
-use Try2Catch\WebPush\Subscription\Subscription;
+use Try2catch\WebPush\Subscription\Subscription;
 
 class SaveData extends PatchModificationData
 {

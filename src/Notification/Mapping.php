@@ -1,14 +1,14 @@
 <?php
-namespace Try2Catch\WebPush\Notification;
+namespace Try2catch\WebPush\Notification;
 
 use Common\Db\Entity as DbEntity;
 use Common\Db\EntityRepository;
 use Common\Dto\CreateOptions as CommonCreateOptions;
 use Common\Dto\Dto;
 use Common\Dto\Mapping as CommonMapping;
-use Try2Catch\WebPush\Db\Notification\Entity;
-use Try2Catch\WebPush\Db\Notification\Repository;
-use Try2Catch\WebPush\Subscription\Mapping as SubscriptionMapping;
+use Try2catch\WebPush\Db\Notification\Entity;
+use Try2catch\WebPush\Db\Notification\Repository;
+use Try2catch\WebPush\Subscription\Mapping as SubscriptionMapping;
 
 /**
  * @method Entity getEntity(Dto $dto)

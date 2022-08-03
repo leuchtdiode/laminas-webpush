@@ -1,7 +1,7 @@
 <?php
-namespace Try2Catch\WebPush\Notification\Send;
+namespace Try2catch\WebPush\Notification\Send;
 
-use Try2Catch\WebPush\Notification\Notification;
+use Try2catch\WebPush\Notification\Notification;
 
 class SendParams
 {

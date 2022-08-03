@@ -1,12 +1,12 @@
 <?php
-namespace Try2Catch\WebPush\Notification;
+namespace Try2catch\WebPush\Notification;
 
 use Common\Db\EntityRepository;
 use Common\Dto\CreateOptions;
 use Common\Dto\FilterData;
 use Common\Dto\Provider as CommonDtoProvider;
-use Try2Catch\WebPush\Db\Notification\Repository;
-use Try2Catch\WebPush\DtoMappingProvider;
+use Try2catch\WebPush\Db\Notification\Repository;
+use Try2catch\WebPush\DtoMappingProvider;
 
 /**
  * @method Notification|null byId($id, ?CreateOptions $createOptions = null)

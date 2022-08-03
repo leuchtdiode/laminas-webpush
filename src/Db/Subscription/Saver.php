@@ -1,5 +1,5 @@
 <?php
-namespace Try2Catch\WebPush\Db\Subscription;
+namespace Try2catch\WebPush\Db\Subscription;
 
 use Common\Db\EntitySaver;
 

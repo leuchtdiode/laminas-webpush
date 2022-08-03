@@ -1,12 +1,12 @@
 <?php
-namespace Try2Catch\WebPush\Notification;
+namespace Try2catch\WebPush\Notification;
 
 use Common\Dto\Dto;
 use Common\Hydration\ArrayHydratable;
 use Common\Hydration\ObjectToArrayHydratorProperty;
 use DateTime;
 use Ramsey\Uuid\UuidInterface;
-use Try2Catch\WebPush\Subscription\Subscription;
+use Try2catch\WebPush\Subscription\Subscription;
 
 class Notification implements Dto, ArrayHydratable
 {

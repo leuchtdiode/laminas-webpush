@@ -1,12 +1,12 @@
 <?php
-namespace Try2Catch\WebPush\Db\Notification;
+namespace Try2catch\WebPush\Db\Notification;
 
 use Common\Db\Entity as DbEntity;
 use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;
-use Try2Catch\WebPush\Db\Subscription\Entity as SubscriptionEntity;
+use Try2catch\WebPush\Db\Subscription\Entity as SubscriptionEntity;
 
 #[ORM\Table(name: 'web_push_notification')]
 #[ORM\Entity(repositoryClass: Repository::class)]

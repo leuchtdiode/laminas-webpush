@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Try2Catch\WebPush\Db\Notification\Order;
+namespace Try2catch\WebPush\Db\Notification\Order;
 
 use Common\Db\Order\AscOrDesc;
 

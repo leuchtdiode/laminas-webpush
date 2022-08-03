@@ -1,8 +1,8 @@
 <?php
-namespace Try2Catch\WebPush;
+namespace Try2catch\WebPush;
 
 use Doctrine\ORM\Mapping\Driver\AttributeDriver;
-use Try2Catch\WebPush\Command;
+use Try2catch\WebPush\Command;
 
 return [
 
@@ -22,7 +22,7 @@ return [
 			],
 			'orm_default'      => [
 				'drivers' => [
-					'WebPush' => 'webpush_entities',
+					'Try2catch\WebPush' => 'webpush_entities',
 				],
 			],
 		],

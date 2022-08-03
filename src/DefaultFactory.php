@@ -1,5 +1,5 @@
 <?php
-namespace Try2Catch\WebPush;
+namespace Try2catch\WebPush;
 
 use Common\AbstractDefaultFactory;
 

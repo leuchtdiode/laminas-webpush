@@ -1,10 +1,10 @@
 <?php
-namespace Try2Catch\WebPush\Subscription;
+namespace Try2catch\WebPush\Subscription;
 
-use Try2Catch\WebPush\Db\Subscription\Deleter;
+use Try2catch\WebPush\Db\Subscription\Deleter;
 use Exception;
 use Log\Log;
-use Try2Catch\WebPush\DtoMappingProvider;
+use Try2catch\WebPush\DtoMappingProvider;
 
 class Remover
 {

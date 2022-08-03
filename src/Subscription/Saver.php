@@ -1,11 +1,11 @@
 <?php
-namespace Try2Catch\WebPush\Subscription;
+namespace Try2catch\WebPush\Subscription;
 
 use Exception;
 use Log\Log;
-use Try2Catch\WebPush\Db\Subscription\Entity;
-use Try2Catch\WebPush\Db\Subscription\Saver as EntitySaver;
-use Try2Catch\WebPush\DtoMappingProvider;
+use Try2catch\WebPush\Db\Subscription\Entity;
+use Try2catch\WebPush\Db\Subscription\Saver as EntitySaver;
+use Try2catch\WebPush\DtoMappingProvider;
 
 class Saver
 {

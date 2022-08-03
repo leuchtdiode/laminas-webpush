@@ -1,5 +1,5 @@
 <?php
-namespace Try2Catch\WebPush;
+namespace Try2catch\WebPush;
 
 use Laminas\Mvc\MvcEvent;
 use Psr\Container\ContainerExceptionInterface;

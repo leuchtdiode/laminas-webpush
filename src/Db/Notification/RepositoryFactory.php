@@ -1,5 +1,5 @@
 <?php
-namespace Try2Catch\WebPush\Db\Notification;
+namespace Try2catch\WebPush\Db\Notification;
 
 use Doctrine\ORM\EntityManager;
 use Interop\Container\ContainerInterface;

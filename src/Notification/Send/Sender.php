@@ -1,13 +1,13 @@
 <?php
-namespace Try2Catch\WebPush\Notification\Send;
+namespace Try2catch\WebPush\Notification\Send;
 
 use DateTime;
 use Exception;
 use Log\Log;
 use Minishlink\WebPush\Subscription;
 use Minishlink\WebPush\WebPush;
-use Try2Catch\WebPush\Notification\SaveData;
-use Try2Catch\WebPush\Notification\Saver as NotificationSaver;
+use Try2catch\WebPush\Notification\SaveData;
+use Try2catch\WebPush\Notification\Saver as NotificationSaver;
 
 class Sender
 {

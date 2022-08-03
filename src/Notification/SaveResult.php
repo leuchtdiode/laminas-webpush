@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Try2Catch\WebPush\Notification;
+namespace Try2catch\WebPush\Notification;
 
-use Try2Catch\WebPush\Common\ResultTrait;
+use Try2catch\WebPush\Common\ResultTrait;
 
 class SaveResult
 {

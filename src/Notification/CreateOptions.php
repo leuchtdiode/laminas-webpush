@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Try2Catch\WebPush\Notification;
+namespace Try2catch\WebPush\Notification;
 
 use Common\Dto\CreateOptions as CommonDtoCreateOptions;
 

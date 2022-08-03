@@ -1,5 +1,5 @@
 <?php
-namespace Try2Catch\WebPush\Common;
+namespace Try2catch\WebPush\Common;
 
 use Common\Error;
 

@@ -1,11 +1,11 @@
 <?php
-namespace Try2Catch\WebPush\Notification;
+namespace Try2catch\WebPush\Notification;
 
 use Exception;
 use Log\Log;
-use Try2Catch\WebPush\Db\Notification\Entity;
-use Try2Catch\WebPush\Db\Notification\Saver as EntitySaver;
-use Try2Catch\WebPush\DtoMappingProvider;
+use Try2catch\WebPush\Db\Notification\Entity;
+use Try2catch\WebPush\Db\Notification\Saver as EntitySaver;
+use Try2catch\WebPush\DtoMappingProvider;
 
 class Saver
 {

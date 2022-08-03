@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Try2Catch\WebPush\Notification\Send;
+namespace Try2catch\WebPush\Notification\Send;
 
 class SendResult
 {

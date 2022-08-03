@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Try2Catch\WebPush\Db\Notification\Filter;
+namespace Try2catch\WebPush\Db\Notification\Filter;
 
 use Common\Db\Filter\Equals;
 

@@ -1,13 +1,13 @@
 <?php
-namespace Try2Catch\WebPush\Subscription;
+namespace Try2catch\WebPush\Subscription;
 
 use Common\Db\EntityRepository;
 use Common\Dto\CreateOptions;
 use Common\Dto\FilterData;
 use Common\Dto\Mapping;
 use Common\Dto\Provider as CommonDtoProvider;
-use Try2Catch\WebPush\Db\Subscription\Repository;
-use Try2Catch\WebPush\DtoMappingProvider;
+use Try2catch\WebPush\Db\Subscription\Repository;
+use Try2catch\WebPush\DtoMappingProvider;
 
 /**
  * @method Subscription|null byId($id, ?CreateOptions $createOptions = null)

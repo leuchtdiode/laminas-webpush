@@ -1,7 +1,7 @@
 <?php
-namespace Try2Catch\WebPush\Subscription;
+namespace Try2catch\WebPush\Subscription;
 
-use Try2Catch\WebPush\Common\ResultTrait;
+use Try2catch\WebPush\Common\ResultTrait;
 
 class SaveResult
 {

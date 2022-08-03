@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Try2Catch\WebPush\Command\Tools;
+namespace Try2catch\WebPush\Command\Tools;
 
 use ErrorException;
 use Minishlink\WebPush\VAPID;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Try2Catch\WebPush\Command\Base;
+use Try2catch\WebPush\Command\Base;
 
 class CreateKeys extends Base
 {

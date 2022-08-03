@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Try2Catch\WebPush;
+namespace Try2catch\WebPush;
 
 use Exception;
-use Try2Catch\WebPush\Notification\Mapping as NotificationMapping;
-use Try2Catch\WebPush\Subscription\Mapping as SubscriptionMapping;
+use Try2catch\WebPush\Notification\Mapping as NotificationMapping;
+use Try2catch\WebPush\Subscription\Mapping as SubscriptionMapping;
 
 /**
  * @method NotificationMapping getNotificationMapping()

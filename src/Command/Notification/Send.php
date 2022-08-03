@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Try2Catch\WebPush\Command\Notification;
+namespace Try2catch\WebPush\Command\Notification;
 
 use Common\Db\FilterChain;
 use Common\Db\OrderChain;
@@ -9,13 +9,13 @@ use Common\Dto\FilterData;
 use Exception;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Try2Catch\WebPush\Command\Base;
-use Try2Catch\WebPush\Db\Notification\Filter as DbFilter;
-use Try2Catch\WebPush\Db\Notification\Order as DbOrder;
-use Try2Catch\WebPush\Notification\CreateOptions;
-use Try2Catch\WebPush\Notification\Provider as NotificationProvider;
-use Try2Catch\WebPush\Notification\Send\Sender;
-use Try2Catch\WebPush\Notification\Send\SendParams;
+use Try2catch\WebPush\Command\Base;
+use Try2catch\WebPush\Db\Notification\Filter as DbFilter;
+use Try2catch\WebPush\Db\Notification\Order as DbOrder;
+use Try2catch\WebPush\Notification\CreateOptions;
+use Try2catch\WebPush\Notification\Provider as NotificationProvider;
+use Try2catch\WebPush\Notification\Send\Sender;
+use Try2catch\WebPush\Notification\Send\SendParams;
 
 class Send extends Base
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Try2Catch\WebPush\Subscription;
+namespace Try2catch\WebPush\Subscription;
 
 class RemoveData
 {
