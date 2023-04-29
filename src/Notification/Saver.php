@@ -1,8 +1,8 @@
 <?php
 namespace Try2catch\WebPush\Notification;
 
-use Exception;
 use Log\Log;
+use Throwable;
 use Try2catch\WebPush\Db\Notification\Entity;
 use Try2catch\WebPush\Db\Notification\Saver as EntitySaver;
 use Try2catch\WebPush\DtoMappingProvider;
@@ -63,7 +63,7 @@ class Saver
 			);
 			$result->setSuccess(true);
 		}
-		catch (Exception $ex)
+		catch (Throwable $ex)
 		{
 			Log::error($ex);
 		}

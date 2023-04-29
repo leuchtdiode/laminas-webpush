@@ -27,7 +27,7 @@ class Send extends Base
 		parent::__construct('web-push:notification:send');
 	}
 
-	protected function configure()
+	protected function configure(): void
 	{
 		$this->setDescription('Sends unsent notifications');
 	}

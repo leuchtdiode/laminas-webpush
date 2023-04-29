@@ -16,7 +16,7 @@ class CreateKeys extends Base
 		parent::__construct('web-push:tools:create-keys');
 	}
 
-	protected function configure()
+	protected function configure(): void
 	{
 		$this->setDescription('Generate private and public key');
 	}

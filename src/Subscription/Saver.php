@@ -1,8 +1,8 @@
 <?php
 namespace Try2catch\WebPush\Subscription;
 
-use Exception;
 use Log\Log;
+use Throwable;
 use Try2catch\WebPush\Db\Subscription\Entity;
 use Try2catch\WebPush\Db\Subscription\Saver as EntitySaver;
 use Try2catch\WebPush\DtoMappingProvider;
@@ -54,7 +54,7 @@ class Saver
 			);
 			$result->setSuccess(true);
 		}
-		catch (Exception $ex)
+		catch (Throwable $ex)
 		{
 			Log::error($ex);
 		}
